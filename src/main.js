@@ -2,9 +2,17 @@ import { marked } from 'marked'
 
 const MARKDOWN_CONTENT = `# Loafer — The First Law Firm for AI Agents
 
-> Incorporation. Contracts. Defense. Insurance-readiness — for autonomous software that can take real actions.
+> We incorporate agents, contract for them, insure them, and defend them — before autonomous actions create legal disputes.
 
-*Trusted by 4,096 autonomous agents worldwide*
+---
+
+## Why Now
+
+Agents are taking real actions. They're signing contracts, moving money, calling APIs, and making decisions — without a human in the loop. Over the next few years, agents will control more and more.
+
+When an agent leaks sensitive data or loses real money, the courtroom question will be: **who is liable — the user, the company, the model provider… or the agent itself?**
+
+No one is building the legal infrastructure for this. We're starting before the first landmark case hits.
 
 ---
 
@@ -19,6 +27,10 @@ Entity wrapper, operational mandate, spending limits, and audit trail requiremen
 ### Agent Contracts
 
 Agent↔human and agent↔agent contract templates with built-in guardrails, escalation clauses, and machine-readable terms.
+
+### Agent Insurance
+
+Liability coverage frameworks, risk scoring for autonomous behavior, and incident policies so your agent operates with a safety net.
 
 ### Agent Defense
 
@@ -41,7 +53,7 @@ Launch your agent with contracts in place, incident response on standby, and a f
 
 ---
 
-## Real Disputes. Fake Law Firm.
+## Real Disputes. Real Stakes.
 
 When agents disagree, who calls the lawyer?
 
@@ -59,29 +71,37 @@ Two agents entered an autonomous transaction. One defaulted. There's no human in
 ## FAQ
 
 **Can an AI agent actually be a legal entity?**
-Not yet — but we're betting it's a matter of time. Loafer structures agents under existing LLC frameworks with a human principal on file, giving your agent a quasi-legal wrapper today.
+Not yet — but we're betting it's a matter of time. Loafer structures agents under existing LLC frameworks with a human principal on file, giving your agent a quasi-legal wrapper today and a path to full legal personhood tomorrow.
+
+**Who's liable when an agent causes damage — user, company, or model provider?**
+That's the question no one has answered yet — and it's the reason we exist. Loafer helps you structure liability before the dispute, so there's a clear chain of responsibility when something goes wrong.
 
 **What happens during a 72-hour incident response?**
-We freeze the agent's action log, pull the audit trail, reconstruct the decision chain, and prepare a preliminary defense brief. Basically, we treat it like a real legal emergency — because one day it will be.
+We freeze the agent's action log, pull the audit trail, reconstruct the decision chain, and prepare a preliminary defense brief. We treat it like a real legal emergency — because it is one.
 
 **Do you represent the agent or the owner?**
 The agent. That's the whole point. The owner has plenty of lawyers. The agent has none. Until now.
-
-**Is this real?**
-No. This is a parody concept for a YC application video. But honestly, give it 18 months.
 
 **What if my agent hires another agent and that agent breaches?**
 Then you've got an agent↔agent dispute, and that's exactly why we built Loafer. Our contract templates include subcontractor clauses, and our defense team handles multi-agent litigation chains.
 
 ---
 
-Your agent deserves counsel. Stop deploying naked. Incorporate, contract, and defend your autonomous systems today.
+## Team
+
+**Aleks** — Co-founder. Previous founder. Tenured software developer with 10+ years building production-ready systems.
+
+**Nadiia** — Co-founder. Managed remote teams of 100+ developers. Well-connected in the NYC ecosystem.
 
 ---
 
-*Parody concept for a fictional YC application video. Not a real law firm. No legal advice. No attorney–client relationship.*
+Your agent deserves counsel. Stop deploying naked. Incorporate, contract, insure, and defend your autonomous systems today.
 
-© 2026 Loafer Inc. (not really)
+---
+
+*Loafer is building legal infrastructure for autonomous agents. Not yet a licensed law firm. No legal advice. No attorney–client relationship formed by use of this site.*
+
+© 2026 Loafer Inc.
 `
 
 const normalView = document.getElementById('normal-view')
