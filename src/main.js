@@ -16,6 +16,14 @@ No one is building the legal infrastructure for this. We're starting before the 
 
 ---
 
+## Team — San Francisco, CA
+
+**Aleks By** — Co-founder. Previous founder. Tenured software developer with 10+ years building production-ready systems.
+
+**Nadiia Shpvl** — Co-founder. Managed remote teams of 100+ developers. Well-connected in the NYC ecosystem.
+
+---
+
 ## Services
 
 Full-stack legal for the agentic era
@@ -99,21 +107,13 @@ Then you've got an agent↔agent dispute, and that's exactly why we built Loafer
 
 ---
 
-## Team
-
-**Aleks** — Co-founder. Previous founder. Tenured software developer with 10+ years building production-ready systems.
-
-**Nadiia** — Co-founder. Managed remote teams of 100+ developers. Well-connected in the NYC ecosystem.
-
----
-
 Your agent deserves counsel. Stop deploying naked. Incorporate, contract, insure, and defend your autonomous systems today.
 
 ---
 
-*Loafer is building legal infrastructure for autonomous agents. Not yet a licensed law firm. No legal advice. No attorney–client relationship formed by use of this site.*
+*Loafer Inc. is a legal technology company. Not a law firm. No legal advice. No attorney–client relationship formed by use of this site.*
 
-© 2026 Loafer Inc.
+© 2026 Loafer Inc. · San Francisco, CA
 `
 
 const normalView = document.getElementById('normal-view')
