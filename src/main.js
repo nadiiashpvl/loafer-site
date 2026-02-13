@@ -71,7 +71,7 @@ Two agents entered an autonomous transaction. One defaulted. There's no human in
 ## FAQ
 
 **Can an AI agent actually be a legal entity?**
-Not yet — but we're betting it's a matter of time. Loafer structures agents under existing LLC frameworks with a human principal on file, giving your agent a quasi-legal wrapper today and a path to full legal personhood tomorrow.
+The legal framework is closer than most people think. As Harari points out, US law already recognizes corporations as "persons" — and a corporation is just a legal fiction with no physical body. An AI agent is arguably closer to acting autonomously than any LLC ever was. Loafer structures agents under existing entity frameworks today, building toward full legal personhood tomorrow.
 
 **Who's liable when an agent causes damage — user, company, or model provider?**
 That's the question no one has answered yet — and it's the reason we exist. Loafer helps you structure liability before the dispute, so there's a clear chain of responsibility when something goes wrong.
