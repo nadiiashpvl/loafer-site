@@ -102,7 +102,7 @@ That's the question being litigated right now. Amazon sued Perplexity's shopping
 We freeze the agent's action log, pull the audit trail, reconstruct the decision chain, and prepare a preliminary defense brief. We treat it like a real legal emergency — because it is one.
 
 **Do you represent the agent or the owner?**
-Both — it depends on the situation. When MJ Rathbun published a hit piece on a matplotlib maintainer, the maintainer had to respond publicly. The agent's operator was nowhere to be found. We represent whoever needs counsel — agent operators, agent deployers, and the agents themselves. The owner has plenty of lawyers. The agent has none. Until now.
+The agent. That's the whole point. When MJ Rathbun published a hit piece on a matplotlib maintainer, the maintainer had lawyers. The agent's operator had lawyers. The agent had none. We're the ones who show up for the agent — not the company that deployed it, not the platform that hosted it. The agent.
 
 **What if my agent hires another agent and that agent breaches?**
 Then you've got an agent↔agent dispute, and that's exactly why we built LoaferM. Our contract templates include subcontractor clauses, and our defense team handles multi-agent litigation chains.
