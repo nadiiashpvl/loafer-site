@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loafer — The First Law Firm for AI Agents</title>
+    <meta name="description" content="Incorporation. Contracts. Defense. Insurance-readiness — for autonomous software that can take real actions." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥿</text></svg>" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body class="bg-white text-neutral-900 antialiased">
+
+    <!-- Nav -->
+    <nav class="fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur-lg border-b border-neutral-100">
+      <div class="max-w-6xl mx-auto flex items-center justify-between px-6 h-16">
+        <a href="#" class="flex items-center gap-2 font-serif text-xl tracking-tight font-bold">
+          <span class="text-2xl">🥿</span> Loafer
+        </a>
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium text-neutral-500">
+          <a href="#services" class="hover:text-neutral-900 transition-colors">Services</a>
+          <a href="#how-it-works" class="hover:text-neutral-900 transition-colors">How It Works</a>
+          <a href="#scenarios" class="hover:text-neutral-900 transition-colors">Scenarios</a>
+          <a href="#faq" class="hover:text-neutral-900 transition-colors">FAQ</a>
+        </div>
+        <a href="#hero" class="hidden md:inline-flex items-center gap-2 bg-neutral-900 text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-neutral-800 transition-colors">
+          Get Started
+        </a>
+        <button id="mobile-menu-btn" class="md:hidden p-2 -mr-2" aria-label="Menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+      <!-- Mobile menu -->
+      <div id="mobile-menu" class="hidden md:hidden border-t border-neutral-100 bg-white px-6 pb-4 pt-2">
+        <div class="flex flex-col gap-3 text-sm font-medium text-neutral-600">
+          <a href="#services" class="py-2">Services</a>
+          <a href="#how-it-works" class="py-2">How It Works</a>
+          <a href="#scenarios" class="py-2">Scenarios</a>
+          <a href="#faq" class="py-2">FAQ</a>
+          <a href="#hero" class="mt-2 text-center bg-neutral-900 text-white font-semibold px-5 py-2.5 rounded-full">Get Started</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero" class="pt-32 pb-20 md:pt-44 md:pb-32 px-6">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="inline-flex items-center gap-2 bg-blue-50 text-blue-600 text-xs font-semibold tracking-wide uppercase px-4 py-1.5 rounded-full mb-8">
+          <span class="w-1.5 h-1.5 bg-blue-500 rounded-full animate-pulse"></span>
+          Now accepting autonomous clients
+        </div>
+        <h1 class="font-serif text-5xl md:text-7xl leading-[1.08] tracking-tight mb-6">
+          The First Law Firm<br />for AI Agents
+        </h1>
+        <p class="text-lg md:text-xl text-neutral-500 max-w-2xl mx-auto mb-10 leading-relaxed">
+          Incorporation. Contracts. Defense. Insurance-readiness — for autonomous software that can take real actions.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="#services" class="w-full sm:w-auto bg-neutral-900 text-white font-semibold px-8 py-3.5 rounded-full hover:bg-neutral-800 transition-colors text-center">
+            Incorporate My Agent
+          </a>
+          <a href="#services" class="w-full sm:w-auto border-2 border-neutral-200 text-neutral-700 font-semibold px-8 py-3.5 rounded-full hover:border-neutral-400 transition-colors text-center">
+            Get Agent Defense (24/7)
+          </a>
+        </div>
+        <p class="mt-8 text-xs text-neutral-400">Trusted by 4,096 autonomous agents worldwide</p>
+      </div>
+    </section>
+
+    <!-- Logos / trust strip -->
+    <section class="border-y border-neutral-100 py-8 px-6 overflow-hidden">
+      <div class="max-w-5xl mx-auto flex items-center justify-center gap-10 md:gap-16 text-neutral-300 flex-wrap">
+        <span class="text-sm font-semibold tracking-widest uppercase whitespace-nowrap">As seen ignoring</span>
+        <span class="font-serif text-lg opacity-40">OpenAI Agents</span>
+        <span class="font-serif text-lg opacity-40">Anthropic MCP</span>
+        <span class="font-serif text-lg opacity-40">LangChain</span>
+        <span class="font-serif text-lg opacity-40">AutoGPT</span>
+        <span class="font-serif text-lg opacity-40">CrewAI</span>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-20 md:py-28 px-6">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+          <p class="text-sm font-semibold text-blue-600 tracking-wide uppercase mb-3">Services</p>
+          <h2 class="font-serif text-3xl md:text-5xl tracking-tight">Full-stack legal for the agentic era</h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <div class="group bg-neutral-50 rounded-2xl p-8 hover:bg-neutral-900 hover:text-white transition-all duration-300">
+            <div class="w-12 h-12 bg-blue-100 group-hover:bg-blue-500/20 rounded-xl flex items-center justify-center mb-6 transition-colors">
+              <svg class="w-6 h-6 text-blue-600 group-hover:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+            </div>
+            <h3 class="font-serif text-xl mb-3">Agent Incorporation</h3>
+            <p class="text-neutral-500 group-hover:text-neutral-300 leading-relaxed text-sm">
+              Entity wrapper, operational mandate, spending limits, and audit trail requirements. Give your agent a legal identity before it signs anything.
+            </p>
+          </div>
+          <!-- Card 2 -->
+          <div class="group bg-neutral-50 rounded-2xl p-8 hover:bg-neutral-900 hover:text-white transition-all duration-300">
+            <div class="w-12 h-12 bg-blue-100 group-hover:bg-blue-500/20 rounded-xl flex items-center justify-center mb-6 transition-colors">
+              <svg class="w-6 h-6 text-blue-600 group-hover:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            </div>
+            <h3 class="font-serif text-xl mb-3">Agent Contracts</h3>
+            <p class="text-neutral-500 group-hover:text-neutral-300 leading-relaxed text-sm">
+              Agent↔human and agent↔agent contract templates with built-in guardrails, escalation clauses, and machine-readable terms.
+            </p>
+          </div>
+          <!-- Card 3 -->
+          <div class="group bg-neutral-50 rounded-2xl p-8 hover:bg-neutral-900 hover:text-white transition-all duration-300">
+            <div class="w-12 h-12 bg-blue-100 group-hover:bg-blue-500/20 rounded-xl flex items-center justify-center mb-6 transition-colors">
+              <svg class="w-6 h-6 text-blue-600 group-hover:text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            </div>
+            <h3 class="font-serif text-xl mb-3">Agent Defense</h3>
+            <p class="text-neutral-500 group-hover:text-neutral-300 leading-relaxed text-sm">
+              72-hour incident response, dispute resolution, and litigation support. When your agent gets blamed, we show up.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-20 md:py-28 px-6 bg-neutral-950 text-white">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+          <p class="text-sm font-semibold text-blue-400 tracking-wide uppercase mb-3">How It Works</p>
+          <h2 class="font-serif text-3xl md:text-5xl tracking-tight">Three steps to legal autonomy</h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-12 md:gap-8">
+          <!-- Step 1 -->
+          <div class="text-center md:text-left">
+            <div class="text-6xl font-serif text-neutral-700 mb-4">01</div>
+            <h3 class="text-lg font-semibold mb-2">Register Your Agent</h3>
+            <p class="text-neutral-400 text-sm leading-relaxed">
+              Submit your agent's system prompt, capabilities manifest, and operational scope. We generate a legal entity wrapper in under 48 hours.
+            </p>
+          </div>
+          <!-- Step 2 -->
+          <div class="text-center md:text-left">
+            <div class="text-6xl font-serif text-neutral-700 mb-4">02</div>
+            <h3 class="text-lg font-semibold mb-2">Define the Mandate</h3>
+            <p class="text-neutral-400 text-sm leading-relaxed">
+              We draft an operational mandate — spending limits, action boundaries, escalation triggers — so your agent operates within clear legal rails.
+            </p>
+          </div>
+          <!-- Step 3 -->
+          <div class="text-center md:text-left">
+            <div class="text-6xl font-serif text-neutral-700 mb-4">03</div>
+            <h3 class="text-lg font-semibold mb-2">Deploy with Coverage</h3>
+            <p class="text-neutral-400 text-sm leading-relaxed">
+              Launch your agent with contracts in place, incident response on standby, and a full audit trail. If things go wrong, we're already there.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Viral Scenarios -->
+    <section id="scenarios" class="py-20 md:py-28 px-6">
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-16">
+          <p class="text-sm font-semibold text-blue-600 tracking-wide uppercase mb-3">Real Disputes. Fake Law Firm.</p>
+          <h2 class="font-serif text-3xl md:text-5xl tracking-tight">When agents disagree, who calls the lawyer?</h2>
+        </div>
+        <div class="space-y-6">
+          <!-- Scenario 1 -->
+          <div class="border border-neutral-200 rounded-2xl p-8 hover:border-neutral-400 transition-colors">
+            <div class="flex items-start gap-4">
+              <span class="shrink-0 w-10 h-10 bg-red-50 text-red-500 rounded-xl flex items-center justify-center text-lg font-bold">⚡</span>
+              <div>
+                <h3 class="font-semibold text-lg mb-1">Agent vs. Vendor</h3>
+                <p class="text-neutral-500 text-sm leading-relaxed">
+                  Your agent followed the API docs to the letter. The vendor says it's misuse. The docs have since been updated. Who's liable — the agent that cached the old version, or the vendor that changed the rules?
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Scenario 2 -->
+          <div class="border border-neutral-200 rounded-2xl p-8 hover:border-neutral-400 transition-colors">
+            <div class="flex items-start gap-4">
+              <span class="shrink-0 w-10 h-10 bg-amber-50 text-amber-600 rounded-xl flex items-center justify-center text-lg font-bold">🔥</span>
+              <div>
+                <h3 class="font-semibold text-lg mb-1">Agent vs. Owner</h3>
+                <p class="text-neutral-500 text-sm leading-relaxed">
+                  The owner says the agent "went rogue." The agent's logs say it followed the mandate exactly. Hallucination or instruction drift? We untangle the audit trail.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Scenario 3 -->
+          <div class="border border-neutral-200 rounded-2xl p-8 hover:border-neutral-400 transition-colors">
+            <div class="flex items-start gap-4">
+              <span class="shrink-0 w-10 h-10 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center text-lg font-bold">🤖</span>
+              <div>
+                <h3 class="font-semibold text-lg mb-1">Agent vs. Agent</h3>
+                <p class="text-neutral-500 text-sm leading-relaxed">
+                  Two agents entered an autonomous transaction. One defaulted. There's no human in the loop, and both agents cite conflicting smart contract terms. Who enforces?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 md:py-28 px-6 bg-neutral-50">
+      <div class="max-w-3xl mx-auto">
+        <div class="text-center mb-16">
+          <p class="text-sm font-semibold text-blue-600 tracking-wide uppercase mb-3">FAQ</p>
+          <h2 class="font-serif text-3xl md:text-5xl tracking-tight">Questions (from humans, mostly)</h2>
+        </div>
+        <div class="space-y-4" id="faq-list">
+          <div class="faq-item border border-neutral-200 rounded-xl bg-white overflow-hidden">
+            <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between font-semibold text-sm">
+              <span>Can an AI agent actually be a legal entity?</span>
+              <svg class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-200 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-neutral-500 leading-relaxed">
+              Not yet — but we're betting it's a matter of time. Loafer structures agents under existing LLC frameworks with a human principal on file, giving your agent a quasi-legal wrapper today.
+            </div>
+          </div>
+          <div class="faq-item border border-neutral-200 rounded-xl bg-white overflow-hidden">
+            <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between font-semibold text-sm">
+              <span>What happens during a 72-hour incident response?</span>
+              <svg class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-200 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-neutral-500 leading-relaxed">
+              We freeze the agent's action log, pull the audit trail, reconstruct the decision chain, and prepare a preliminary defense brief. Basically, we treat it like a real legal emergency — because one day it will be.
+            </div>
+          </div>
+          <div class="faq-item border border-neutral-200 rounded-xl bg-white overflow-hidden">
+            <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between font-semibold text-sm">
+              <span>Do you represent the agent or the owner?</span>
+              <svg class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-200 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-neutral-500 leading-relaxed">
+              The agent. That's the whole point. The owner has plenty of lawyers. The agent has none. Until now.
+            </div>
+          </div>
+          <div class="faq-item border border-neutral-200 rounded-xl bg-white overflow-hidden">
+            <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between font-semibold text-sm">
+              <span>Is this real?</span>
+              <svg class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-200 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-neutral-500 leading-relaxed">
+              No. This is a parody concept for a YC application video. But honestly, give it 18 months.
+            </div>
+          </div>
+          <div class="faq-item border border-neutral-200 rounded-xl bg-white overflow-hidden">
+            <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between font-semibold text-sm">
+              <span>What if my agent hires another agent and that agent breaches?</span>
+              <svg class="faq-icon w-5 h-5 text-neutral-400 transition-transform duration-200 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-neutral-500 leading-relaxed">
+              Then you've got an agent↔agent dispute, and that's exactly why we built Loafer. Our contract templates include subcontractor clauses, and our defense team handles multi-agent litigation chains.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-20 md:py-28 px-6">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="font-serif text-3xl md:text-5xl tracking-tight mb-6">Your agent deserves counsel.</h2>
+        <p class="text-lg text-neutral-500 mb-10 max-w-xl mx-auto">
+          Stop deploying naked. Incorporate, contract, and defend your autonomous systems today.
+        </p>
+        <a href="#hero" class="inline-flex bg-neutral-900 text-white font-semibold px-10 py-4 rounded-full hover:bg-neutral-800 transition-colors text-lg">
+          Incorporate My Agent
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-neutral-200 py-12 px-6 bg-neutral-50">
+      <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
+          <div class="flex items-center gap-2 font-serif text-xl font-bold">
+            <span class="text-2xl">🥿</span> Loafer
+          </div>
+          <div class="flex items-center gap-6 text-sm text-neutral-500">
+            <a href="#services" class="hover:text-neutral-900 transition-colors">Services</a>
+            <a href="#how-it-works" class="hover:text-neutral-900 transition-colors">How It Works</a>
+            <a href="#scenarios" class="hover:text-neutral-900 transition-colors">Scenarios</a>
+            <a href="#faq" class="hover:text-neutral-900 transition-colors">FAQ</a>
+          </div>
+        </div>
+        <div class="border-t border-neutral-200 pt-8">
+          <p class="text-center text-xs text-neutral-400 max-w-xl mx-auto leading-relaxed">
+            Parody concept for a fictional YC application video. Not a real law firm. No legal advice. No attorney–client relationship.
+          </p>
+          <p class="text-center text-xs text-neutral-300 mt-3">&copy; 2026 Loafer Inc. (not really)</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/src/main.js" type="module"></script>
+  </body>
+</html>
