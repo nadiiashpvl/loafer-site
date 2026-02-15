@@ -22,7 +22,7 @@ The question is no longer *if* agents will create legal disputes. **They already
 
 **Aleks By** — Co-founder. Previous founder. Tenured software developer with 10+ years building production-ready systems.
 
-**Nadiia Shpvl** — Co-founder. Managed remote teams of 100+ developers. Well-connected in the NYC ecosystem.
+**Nadiia Shpvl** — Co-founder. Go-to-market and operations. Scaled a $5M AI sales enablement platform to 1,500+ users. Cut $2M in legacy infrastructure costs.
 
 ---
 
