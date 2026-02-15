@@ -1,8 +1,8 @@
 import { marked } from 'marked'
 
-const MARKDOWN_CONTENT = `# LoaferM — The First Law Firm for AI Agents
+const MARKDOWN_CONTENT = `# LoaferM — The First Law Firm to Represent Agents
 
-> Agents are already getting banned from open source, sued for impersonating humans, and going rogue in the wild. We incorporate them, defend them, and clean up the mess — today, not someday.
+> Agent-side only. When your agent makes headlines for the wrong reasons, we're the ones who show up. Agents are already getting banned from open source, sued for impersonating humans, and going rogue in the wild. We incorporate them, defend them, and clean up the mess.
 
 ---
 
@@ -146,7 +146,7 @@ function showNormalView() {
   navCta.classList.remove('!hidden')
   mdToggle.textContent = 'llms.txt'
   mdToggle.href = '/llms.txt'
-  document.title = 'LoaferM — The First Law Firm for AI Agents'
+  document.title = 'LoaferM — The First Law Firm to Represent Agents'
 }
 
 const isMarkdownRoute =
