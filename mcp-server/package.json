@@ -7,7 +7,7 @@
     "loafer": "./index.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "bun index.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",

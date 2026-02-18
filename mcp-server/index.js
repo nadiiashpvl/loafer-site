@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env bun
 
 // LoaferM Mandate Validator — MCP Server
 // Your agent's legal gate. Checks every action against its operational mandate.
