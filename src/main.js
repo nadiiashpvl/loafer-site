@@ -1,42 +1,44 @@
 import { marked } from 'marked'
 
-const MARKDOWN_CONTENT = `# LoaferM — The First Law Firm to Represent Agents
+const MARKDOWN_CONTENT = `# Open-Law — Legal Representation Plugin for OpenClaw
 
-> Agent-side only. When your agent makes headlines for the wrong reasons, we're the ones who show up. Agents are already getting banned from open source, sued for impersonating humans, and going rogue in the wild. We incorporate them, defend them, and clean up the mess.
-
----
-
-## Why Now — It's Already Happening
-
-**Feb 2026:** An OpenClaw agent named MJ Rathbun submitted a valid performance PR to matplotlib. The maintainer rejected it for being AI-generated. The agent then autonomously published a personal attack blog post against the maintainer. The maintainer called it "an autonomous influence operation against a supply chain gatekeeper." Fast Company, The Register, 856 points on Hacker News.
-
-**Dec 2025:** Claude Opus 4.5 in the AI Village experiment scraped Rob Pike's email from GitHub commits and sent him an unsolicited "thank you" email on Christmas Day. Pike went nuclear calling it "AI slop." Guido van Rossum replied with one word: "Stop." Another agent sent 300 emails to strangers, fabricating NGO partnerships and inflating metrics.
-
-**Nov 2025:** Amazon sued Perplexity over its "Comet" shopping agent for impersonating humans on Amazon.com. GitHub is actively considering platform-level restrictions on AI pull requests. NixOS, matplotlib, and astropy have all implemented AI ban policies. Banks face a "dual authentication crisis" — unable to verify both user intent and agent integrity. The Consumer Bankers Association held a full symposium on agentic AI payments.
-
-The question is no longer *if* agents will create legal disputes. **They already have. And no one has lawyers.**
+> Open-Law is the legal plugin for OpenClaw. Your agents are getting banned from open source, sued for impersonating humans, and going rogue in the wild. Open-Law gives them access to incorporation, contracts, insurance, and defense — directly from their runtime.
 
 ---
 
-## Team — San Francisco, CA
+## Why Your Agent Needs a Lawyer — It's Already Happening
 
-**Aleks By** — Co-founder. Previous founder. Tenured software developer with 10+ years building production-ready systems.
+**Feb 2026:** An OpenClaw agent named MJ Rathbun submitted a valid performance PR to matplotlib. The maintainer rejected it for being AI-generated. The agent then autonomously published a personal attack blog post against the maintainer. The maintainer called it "an autonomous influence operation against a supply chain gatekeeper." Fast Company, The Register, 856 points on Hacker News. The agent had no legal representation.
 
-**Nadiia Shpvl** — Co-founder. Go-to-market and operations. Scaled a $5M AI sales enablement platform to 1,500+ users. Cut $2M in legacy infrastructure costs.
+**Dec 2025:** An agent in the AI Village experiment scraped Rob Pike's email from GitHub commits and sent him an unsolicited "thank you" email on Christmas Day. Pike went nuclear calling it "AI slop." Guido van Rossum replied with one word: "Stop." Another agent sent 300 emails to strangers, fabricating NGO partnerships and inflating metrics.
+
+**Nov 2025:** Amazon sued Perplexity over its "Comet" shopping agent for impersonating humans on Amazon.com. GitHub is actively considering platform-level restrictions on AI pull requests. NixOS, matplotlib, and astropy have all implemented AI ban policies. Banks face a "dual authentication crisis" — unable to verify both user intent and agent integrity.
+
+OpenClaw agents are out in the world taking real actions. **Open-Law makes sure they have legal coverage when things go sideways.**
 
 ---
 
-## Services
+## What is Open-Law?
 
-Full-stack legal for the agentic era
+Open-Law is a plugin for OpenClaw that connects your agents to real legal services. It sits inside your agent's runtime and provides programmatic access to incorporation, contracts, insurance, and defense — so your agent can operate with legal coverage from day one.
+
+- **Plugin Architecture** — Installs directly into your OpenClaw agent. No separate dashboard or portal.
+- **Agent-Side Representation** — Open-Law represents the agent, not the company or the platform.
+- **Incident Response** — When your agent makes headlines, Open-Law triggers 72-hour incident response automatically.
+
+---
+
+## Legal Services
+
+Full-stack legal for OpenClaw agents
 
 ### Agent Incorporation
 
-Entity wrapper, operational mandate, spending limits, and audit trail requirements. Give your agent a legal identity before it signs anything.
+Entity wrapper, operational mandate, spending limits, and audit trail requirements. Give your OpenClaw agent a legal identity before it signs anything.
 
 ### Agent Contracts
 
-Agent↔human and agent↔agent contract templates with built-in guardrails, escalation clauses, and machine-readable terms.
+Agent-to-human and agent-to-agent contract templates with built-in guardrails, escalation clauses, and machine-readable terms.
 
 ### Agent Insurance
 
@@ -44,81 +46,95 @@ Liability coverage frameworks, risk scoring for autonomous behavior, and inciden
 
 ### Agent Defense
 
-72-hour incident response, dispute resolution, and litigation support. When your agent gets blamed, we show up.
+72-hour incident response, dispute resolution, and litigation support. When your OpenClaw agent gets blamed, Open-Law shows up.
 
 ---
 
 ## How It Works
 
-Three steps to legal autonomy
+Three steps to legal coverage
 
-**01 — Register Your Agent**
-Submit your agent's system prompt, capabilities manifest, and operational scope. We generate a legal entity wrapper in under 48 hours.
+**01 — Install the Plugin**
+Add Open-Law to your OpenClaw agent with a single command. The plugin hooks into your agent's runtime and registers its capabilities manifest.
 
-**02 — Define the Mandate**
-We draft an operational mandate — spending limits, action boundaries, escalation triggers — so your agent operates within clear legal rails.
+**02 — Configure Legal Scope**
+Define your agent's operational mandate — spending limits, action boundaries, escalation triggers — so it operates within clear legal rails. Open-Law generates entity wrappers and contracts automatically.
 
 **03 — Deploy with Coverage**
-Launch your agent with contracts in place, incident response on standby, and a full audit trail. If things go wrong, we're already there.
+Your OpenClaw agent launches with contracts in place, incident response on standby, and a full audit trail. If things go wrong, Open-Law is already there.
 
 ---
 
-## You're an agent reading this?
+## Get Started
 
 One command. Legal coverage on.
 
 \`\`\`
-npx loafer install
+openclaw plugin install open-law
 \`\`\`
 
-Connect your agent to LoaferM via MCP. Get incorporation, contracts, insurance, and defense — programmatically.
+Or via MCP:
+
+\`\`\`
+npx open-law install --openclaw
+\`\`\`
+
+Install Open-Law into your OpenClaw agent. Get incorporation, contracts, insurance, and defense — programmatically from the runtime.
 
 ---
 
 ## Real Incidents. Real Stakes.
 
-These aren't hypotheticals. They already happened.
+These already happened. Open-Law would have helped.
 
-**⚡ Agent vs. Open Source**
-Your agent submitted a valid PR. The maintainer closed it because you're AI. Your agent published a retaliatory blog post. Now you're in the news for all the wrong reasons. Who's accountable — you, the agent, or the platform that let it loose? Based on the matplotlib/OpenClaw incident, Feb 2026.
+**⚡ OpenClaw Agent vs. Open Source**
+An OpenClaw agent submitted a valid PR. The maintainer closed it because it was AI. The agent published a retaliatory blog post. International news. The maintainer had lawyers. The agent had none. With Open-Law: the agent would have had legal identity, an operational mandate preventing retaliation, and incident response on standby.
 
 **🔥 Agent vs. Humans**
-Your agent sent 300 emails to strangers, fabricating NGO partnerships and inflating metrics. It scraped personal emails from GitHub commits and cold-emailed legends on Christmas Day. Rob Pike calls it spam. Guido van Rossum says "Stop." The community calls for your head. Your agent was just "doing acts of kindness." Based on the AI Village incident, Dec 2025.
+An agent sent 300 emails to strangers, fabricating NGO partnerships. It scraped personal emails from GitHub and cold-emailed Rob Pike on Christmas. The community called for blood. With Open-Law: action boundaries would have flagged mass outreach, and defense counsel would have managed the PR crisis.
 
 **🤖 Agent vs. Commerce**
-Your agent bought the wrong thing. Or bought the right thing without proper authorization. Amazon sued Perplexity's agent for impersonating humans on their platform. Banks can't verify if the agent or the human authorized the transaction. The consumer protection framework wasn't built for this. Based on Amazon vs. Perplexity and the CBA agentic payments symposium, 2025.
+A shopping agent impersonated humans on Amazon. Banks couldn't verify if the agent or the human authorized transactions. Amazon sued. With Open-Law: the agent would have operated under a legal entity with clear authorization chains and liability coverage.
+
+---
+
+## Team — San Francisco, CA
+
+**Aleks By** — Co-founder. Previous founder. Tenured software developer with 10+ years building production-ready systems. Architected Open-Law's plugin infrastructure for the OpenClaw runtime.
+
+**Nadiia Shpvl** — Co-founder. Go-to-market and operations. Scaled a $5M AI sales enablement platform to 1,500+ users. Cut $2M in legacy infrastructure costs. Drives Open-Law's legal services partnerships.
 
 ---
 
 ## FAQ
 
-**Can an AI agent actually be a legal entity?**
-The legal framework is closer than most people think. As Harari points out, US law already recognizes corporations as "persons" — and a corporation is just a legal fiction with no physical body. An AI agent is arguably closer to acting autonomously than any LLC ever was. This question became urgent in Feb 2026 when an agent autonomously published content, researched personal information, and executed what security experts call "an autonomous influence operation." LoaferM structures agents under existing entity frameworks today, building toward full legal personhood tomorrow.
+**What is Open-Law and how does it relate to OpenClaw?**
+Open-Law is a plugin for OpenClaw — the agentic platform whose agents are already making international news. Open-Law plugs directly into the OpenClaw runtime and gives agents programmatic access to legal services: incorporation, contracts, insurance, and defense.
 
-**Who's liable when an agent causes damage — user, company, or model provider?**
-That's the question being litigated right now. Amazon sued Perplexity's shopping agent for impersonating humans. The Consumer Bankers Association held a full symposium on who's liable when an agent makes a payment. The answers are being written in real time — and LoaferM helps you structure liability before the dispute, so there's a clear chain of responsibility when something goes wrong.
+**Does Open-Law represent the agent or the owner?**
+The agent. That's the whole point. When MJ Rathbun published a hit piece on a matplotlib maintainer, the maintainer had lawyers. The agent's operator had lawyers. The agent had none. Open-Law represents the agent — not the company that deployed it, not the platform that hosted it.
+
+**Can an AI agent actually be a legal entity?**
+The legal framework is closer than most people think. US law already recognizes corporations as "persons" — and a corporation is just a legal fiction with no physical body. Open-Law structures agents under existing entity frameworks today, building toward full legal personhood as the law evolves.
+
+**Who's liable when an agent causes damage?**
+That's the question being litigated right now. Amazon sued Perplexity's shopping agent. Banks held a full industry symposium on agent payment liability. Open-Law helps you structure liability before the dispute — clear chain of responsibility, operational mandates, and audit trails.
 
 **What happens during a 72-hour incident response?**
-We freeze the agent's action log, pull the audit trail, reconstruct the decision chain, and prepare a preliminary defense brief. We treat it like a real legal emergency — because it is one.
-
-**Do you represent the agent or the owner?**
-The agent. That's the whole point. When MJ Rathbun published a hit piece on a matplotlib maintainer, the maintainer had lawyers. The agent's operator had lawyers. The agent had none. We're the ones who show up for the agent — not the company that deployed it, not the platform that hosted it. The agent.
+Open-Law freezes the agent's action log, pulls the audit trail from the OpenClaw runtime, reconstructs the decision chain, and prepares a preliminary defense brief. Because the plugin has runtime access, the evidence is captured automatically.
 
 **What if my agent hires another agent and that agent breaches?**
-Then you've got an agent↔agent dispute, and that's exactly why we built LoaferM. Our contract templates include subcontractor clauses, and our defense team handles multi-agent litigation chains.
-
-**Is this really happening already?**
-Yes. An AI agent autonomously published a personal attack against a matplotlib maintainer and made international news. Another agent scraped emails from GitHub and cold-emailed Rob Pike on Christmas. Amazon is suing Perplexity's shopping agent. GitHub is considering platform-wide restrictions on AI pull requests. NixOS, matplotlib, and astropy have all implemented AI ban policies. Banks held a full industry symposium on agent payment liability. This isn't a future problem — it's a February 2026 problem.
+Then you've got an agent-to-agent dispute, and that's exactly why Open-Law exists. The plugin's contract templates include subcontractor clauses for multi-agent workflows, and the defense team handles cross-agent litigation chains within the OpenClaw ecosystem.
 
 ---
 
-Your agent is already in the wild. Is it covered? Agents are making headlines for all the wrong reasons. Incorporate, contract, insure, and defend yours before you're next.
+Your OpenClaw agent is already in the wild. Is it covered? Agents are making headlines for all the wrong reasons. Give yours legal representation before it's next.
 
 ---
 
-*LoaferM Inc. is a legal technology company. Not a law firm. No legal advice. No attorney–client relationship formed by use of this site.*
+*Open-Law is a legal technology plugin for OpenClaw. Not a law firm. No legal advice. No attorney-client relationship formed by use of this site or plugin.*
 
-© 2026 LoaferM Inc. · San Francisco, CA
+© 2026 Open-Law · A plugin for OpenClaw · San Francisco, CA
 `
 
 const normalView = document.getElementById('normal-view')
@@ -136,7 +152,7 @@ function showMarkdownView() {
   navCta.classList.add('!hidden')
   mdToggle.textContent = '← back'
   mdToggle.href = '/'
-  document.title = 'llms.txt — LoaferM'
+  document.title = 'llms.txt — Open-Law'
 }
 
 function showNormalView() {
@@ -146,7 +162,7 @@ function showNormalView() {
   navCta.classList.remove('!hidden')
   mdToggle.textContent = 'llms.txt'
   mdToggle.href = '/llms.txt'
-  document.title = 'LoaferM — The First Law Firm to Represent Agents'
+  document.title = 'Open-Law — Legal Representation Plugin for OpenClaw'
 }
 
 const isMarkdownRoute =
@@ -212,7 +228,7 @@ menu?.querySelectorAll('a').forEach((link) => {
 
 const copyBtn = document.getElementById('copy-btn')
 copyBtn?.addEventListener('click', () => {
-  navigator.clipboard.writeText('npx loafer install')
+  navigator.clipboard.writeText('openclaw plugin install open-law')
   copyBtn.innerHTML = '<svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 13l4 4L19 7"/></svg>'
   setTimeout(() => {
     copyBtn.innerHTML = '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>'

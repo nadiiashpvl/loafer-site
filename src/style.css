@@ -34,12 +34,12 @@ body {
 
 /* Subtle gradient on hero */
 #hero {
-  background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(59, 130, 246, 0.06) 0%, transparent 70%);
+  background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(5, 150, 105, 0.06) 0%, transparent 70%);
 }
 
 /* Selection color */
 ::selection {
-  background-color: rgba(59, 130, 246, 0.15);
+  background-color: rgba(5, 150, 105, 0.15);
 }
 
 /* Markdown view */
