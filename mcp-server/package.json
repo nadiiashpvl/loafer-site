@@ -1,0 +1,16 @@
+{
+  "name": "loafer",
+  "version": "0.1.0",
+  "description": "LoaferM Mandate Validator — MCP server that checks every agent action against its operational mandate before execution.",
+  "type": "module",
+  "bin": {
+    "loafer": "./index.js"
+  },
+  "scripts": {
+    "start": "bun index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.1"
+  }
+}
